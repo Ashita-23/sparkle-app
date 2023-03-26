@@ -1,3 +1,37 @@
+.service-card{
+height: 30vh;
+width: 16vw;
+border: 1px solid black;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+/* padding: 0.5rem; */
+}
+.service-card-img-box{
+border: 1px solid black;
+height: 22vh;
+width: 14vw;
+margin: 0.5rem;
+}
+.service-card-img{
+
+}
+.service-name{
+font-size: 1.5rem;
+/* padding: 0.5rem; */
+font-weight: bolder;
+text-transform: capitalize;
+}
+
+.service-btn{
+padding: 0.6rem;
+font-size: 1.2rem;
+font-weight: bold;
+margin: 1rem;
+}
+
+
 
 /* services media query */
 

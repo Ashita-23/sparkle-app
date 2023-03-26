@@ -4,6 +4,7 @@ import "./Home.css";
 const Home = () => {
   return (
     <>
+    
       <div className="home-containor">
         <div className="home-card">
           <h1 className="card-heading">SPARKLE PARTY ORGANISER</h1>

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Nunito:wght@300;500;600&display=swap');
+*{
+    font-family: 'Nunito', sans-serif;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.service-card-containor{
+     
+  /* border: 1px solid black; */
+  height: 100vh;
+  width: 100vw;
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* flex-wrap: nowrap; */
+  /* align-items: center; */
+  justify-content: space-evenly;
+}
