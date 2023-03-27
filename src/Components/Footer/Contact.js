@@ -1,20 +1,26 @@
 import React from "react"
+import "./Contact.css"
 
 const Contact = ()=>{
     return(<>
+
 <div className="contact-containor">
-    <form className="contact-form" autoFill="off">
+<p className="contact-heading">Contact Us </p>
+    <form className="contact-form" >
         <label htmlFor="">Name 
-        <input type={"text"} placeholder=" Enter Your Name" name="name"></input></label>
-        <label htmlFor="">Phome No.
-        <input type={"phone"} placeholder=" Enter Your Phone No. " name="phone"></input></label>
-        <label htmlFor="">Email
-        <input type={"email"} placeholder=" Enter Your Email" name="email"></input></label>
-        <textarea type="text" placeholder="Enter Your Meassage ...."></textarea>
+        <input type={"text"} placeholder=" Enter Your Name" name="name" autoComplete="off"></input></label>
+        <label htmlFor="">Phone No.
+        <input type={"phone"} placeholder=" Enter Your Phone No. " name="phone" autoComplete="off"></input></label>
+        <label htmlFor="">Email Id.
+        <input type={"email"} placeholder=" Enter Your Email" name="email" autoComplete="off"></input></label>
+        <label htmlFor="message">message...
+        <textarea type="text" name="message" placeholder="Enter Your Meassage ...." autoComplete="off"></textarea></label>
+        <label htmlFor="submit">
+           <button className="form-btn">submit</button>
+        </label>
     </form>
-        <div className="input-btn-box">
-            <button className="input-btn">Submit</button>
-        </div>
+       
+        
 </div>
     </>)
 }

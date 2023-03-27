@@ -1,12 +1,15 @@
 .service-card{
 height: 30vh;
 width: 16vw;
-border: 1px solid black;
+/* border: 1px solid black; */
+box-shadow: 0px 0px 4px gray;
 display: flex;
 flex-direction: column;
 align-items: center;
+flex-wrap: nowrap;
 justify-content: space-around;
 /* padding: 0.5rem; */
+margin: 1.5rem 1rem;
 }
 .service-card-img-box{
 border: 1px solid black;
@@ -25,10 +28,23 @@ text-transform: capitalize;
 }
 
 .service-btn{
-padding: 0.6rem;
+    background-color: rgb(177, 172, 172);
+    color: rgb(48, 47, 47);
+    border-radius: 10px  ;
+    border: 1px solid  rgb(177, 172, 172);
+    outline: none;
+    padding: 0.6rem;
 font-size: 1.2rem;
 font-weight: bold;
 margin: 1rem;
+transition: .5s;
+}
+
+.service-btn:hover{
+    background-color: rgb(7, 7, 7);
+    color: #f9ca24;
+    border-radius: 10px  ;
+    /* border: 1px solid  #f9ca24; */
 }
 
 

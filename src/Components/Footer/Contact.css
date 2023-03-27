@@ -1,5 +1,80 @@
 
 
+.contact-containor{
+    border: 1px solid black;
+    height: 65vh;
+    width: 99vw;
+    /* padding: 2rem; */
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content:center ;
+
+}
+
+
+.contact-heading{
+    padding-bottom: 1rem;
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.contact-form{
+     padding: 1.2rem;
+     display: flex;
+     flex-direction: column;
+     /* flex-wrap: wrap; */
+     flex-wrap: nowrap;
+     align-items:flex-start ;
+     justify-content:center ;
+border: 1px solid black;
+
+}
+
+form label {
+    display: flex;
+     flex-direction: column;
+     /* flex-wrap: wrap; */
+     flex-wrap: nowrap;
+     align-items:flex-start ;
+     justify-content:center ;
+    padding: .5rem;
+    /* border: 1px solid red; */
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+form input {
+    padding: 0.5rem;
+    font-size: 1.4rem;
+}
+form textarea{
+    padding: 0.5rem;
+    font-size: 1.47rem;
+    outline: none;
+}
+
+.form-btn{
+    text-transform: capitalize;
+    border: 1px solid black;
+    padding: 0.5rem 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    outline: none;
+    margin: 0rem 4.48rem;
+    transition: .6s;
+    background-color: black;
+    color: white;
+
+}
+
+.form-btn:hover{
+outline: none;
+background-color: white;
+color: black;
+
+}
 /* contact media query */
 
 

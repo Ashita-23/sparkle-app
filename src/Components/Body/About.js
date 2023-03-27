@@ -4,6 +4,7 @@ import "./About.css";
 const About = () => {
   return (
     <>
+
       <div className="about-containor">
         <h1 className="about-heading">About Us </h1>
         <div className="about-subcontainor">
@@ -23,12 +24,21 @@ const About = () => {
         </div>
         <div className="customers-containor">
          <div className="happy-customers">
+         <i class="fa-solid fa-face-smile-beam"></i>
           <span>1000</span>
-          <span>Happy Customers</span>
+          <span>HAPPY CUSTOMERS</span>
          </div>
          <div className="total-customers">
+         <i class="fa-solid fa-circle-check"></i>
           <span>1050</span>
-          <span>Total Events Done</span>
+          <span>PROJECTS DELIVERED</span>
+
+         </div>
+        
+         <div className="total-customers">
+         <i className="fa-solid fa-people-group"></i>
+          <span>1050</span>
+          <span>EXPERTISE WORK FORCE</span>
 
          </div>
         
