@@ -87,3 +87,18 @@ const serviceApi = [
         title : "CORPORATE EVENT " ,
     } ,
 ]
+
+
+
+
+
+
+{/* <i class="fa-solid fa-location-dot"></i> */}
+{/* <i class="fa-brands fa-facebook"></i> */}
+{/* <i class="fa-brands fa-instagram"></i> */}
+{/* <i class="fa-solid fa-phone"></i> */}
+{/* <i class="fa-solid fa-bars"></i> */}
+{/* <i class="fa-solid fa-at"></i> */}
+{/* <i class="fa-brands fa-youtube"></i> */}
+{/* <i class="fa-regular fa-copyright"></i> */}
+{/* <i class="fa-brands fa-linkedin"></i> */}
