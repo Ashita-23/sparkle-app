@@ -1,14 +1,18 @@
 .header-box {
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .header-nav {
-  background: #000428;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
-
-
+ 
+  background-image: linear-gradient(
+    to left,
+    #0516bc,
+    #6305b9,
+    #8e00b4,
+    #af00af,
+    #cb0aaa
+  );
+  /* background-image: linear-gradient(to left bottom, #064eb9, #5443b4, #803cb8, #b734c9, #c904ae); */
   color: white;
   display: flex;
   flex-direction: row;
@@ -22,15 +26,14 @@
   text-transform: capitalize;
   font-size: 2rem;
   padding: 0.6rem;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 
   color: rgb(253, 253, 36);
-  
-
 }
 
 .nav-links {
-  border: 1px solid black;
+  /* border: 1px solid  white; */
+ 
 }
 
 nav ul {
@@ -39,7 +42,7 @@ nav ul {
 }
 nav ul li {
   padding: 1rem;
-  border-bottom: 4px solid rgb(0, 0, 0);
+  border-bottom: 4px solid transparent;
   transition: 0.4s;
 }
 

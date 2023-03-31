@@ -4,7 +4,7 @@ const Header = ()=>{
     return(<>
  <div className="header-box">
     <nav className="header-nav">
-        <div className="nav-logo"> <i class="fa-solid fa-star-half-stroke"></i><span>{" "}</span>Sparkle</div>
+        <div className="nav-logo"> <i className="fa-solid fa-star-half-stroke"></i><span>{" "}</span>Sparkle</div>
         <div className="nav-links">
         <ul>
          <li><a href="#home">home</a></li>

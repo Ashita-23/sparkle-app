@@ -1,7 +1,8 @@
 
 
 .contact-containor{
-    border: 1px solid black;
+    color: white;
+    /* border: 1px solid black; */
     height: 65vh;
     width: 99vw;
     /* padding: 2rem; */
@@ -11,7 +12,11 @@
     flex-wrap: nowrap;
     align-items: center;
     justify-content:center ;
-
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://images.unsplash.com/photo-1498081959737-f3ba1af08103?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+/* background-image: url("https://images.unsplash.com/photo-1550951768-de2b75a3fc01?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1167&q=80"); */
 }
 
 
@@ -29,7 +34,9 @@
      flex-wrap: nowrap;
      align-items:flex-start ;
      justify-content:center ;
-border: 1px solid black;
+/* border: 1px solid rgb(252, 248, 248); */
+box-shadow: rgba(3, 3, 3, 0.19) 0px 10px 20px, rgba(3, 3, 3, 0.23) 0px 6px 6px;
+
 
 }
 

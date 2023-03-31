@@ -24,19 +24,19 @@ const About = () => {
         </div>
         <div className="customers-containor">
          <div className="happy-customers">
-         <i class="fa-solid fa-face-smile-beam"></i>
+         <i className="fa-solid fa-face-smile-beam icons"></i>
           <span>1000</span>
           <span>HAPPY CUSTOMERS</span>
          </div>
          <div className="total-customers">
-         <i class="fa-solid fa-circle-check"></i>
+         <i className="fa-solid fa-circle-check icons"></i>
           <span>1050</span>
           <span>PROJECTS DELIVERED</span>
 
          </div>
         
          <div className="total-customers">
-         <i className="fa-solid fa-people-group"></i>
+         <i className="fa-solid fa-people-group icons"></i>
           <span>1050</span>
           <span>EXPERTISE WORK FORCE</span>
 

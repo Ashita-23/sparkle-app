@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="footer-containor">
         <div className="social-links-box">
           <h1 className="social-heading">
-            <i class="fa-solid fa-star-half-stroke"></i>
+            <i className="fa-solid fa-star-half-stroke"></i>
             <span> </span>Sparkle
           </h1>
           <p className="social-title">
@@ -17,19 +17,19 @@ const Footer = () => {
           </p>
           <div className="social-icons">
             <p>
-              <i class="fa-solid fa-phone"></i>
+              <i className="fa-solid fa-phone phones"></i>
             </p>
             <p>
-              <i class="fa-brands fa-facebook"></i>{" "}
+              <i className="fa-brands fa-facebook facebooks"></i>{" "}
             </p>
             <p>
-              <i class="fa-brands fa-instagram"></i>{" "}
+              <i className="fa-brands fa-instagram instras"></i>{" "}
             </p>
             <p>
-              <i class="fa-brands fa-youtube"></i>
+              <i className="fa-brands fa-youtube Utube"></i>
             </p>
             <p>
-              <i class="fa-brands fa-linkedin"></i>
+              <i className="fa-brands fa-linkedin linkedins"></i>
             </p>
           </div>
         </div>
@@ -37,22 +37,22 @@ const Footer = () => {
         <div className="address-containor">
           <p className="address-box">
         
-            <i class="fa-solid fa-location-dot"></i><span>{" "}</span>
+            <i className="fa-solid fa-location-dot locations-gmail"></i><span>{" "}</span>
             Aggarwal Tower, Block CU, Office No. 301, 302, Behind Income Tax
             Colony, Pitampura, New Delhi - 110034, India
           </p>
           <p className="address-box">
-            <i class="fa-solid fa-phone"></i> <span>{" "}</span>+91-9910277066
+            <i className="fa-solid fa-phone pcall"></i> <span>{" "}</span>+91-9910277066
           </p>
           <p className="address-box">
-            <i class="fa-solid fa-at"></i> <span>{" "}</span>sparkle302@gmail.com
+            <i className="fa-solid fa-at locations-gmail"></i> <span>{" "}</span>sparkle302@gmail.com
           </p>
         </div>
       </div>
       <div className="footer-subcontainor">
         
           <p>
-          Copyright <span>{" "}</span><i class="fa-regular fa-copyright"></i> 2019 · All Rights Reserved Sparkle .
+          Copyright <span>{" "}</span><i className="fa-regular fa-copyright"></i> 2019 · All Rights Reserved Sparkle .
           </p>
       
       </div>
