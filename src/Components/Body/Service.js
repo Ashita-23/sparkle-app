@@ -10,7 +10,7 @@ const ServiceBox =()=>{
     const CardDatas =()=>{
 setCardData()
     }
-    console.log(cardData)
+    // console.log(cardData)
     return(<>
  <div className="service-card-containor">
 <p className="service-heading">our services</p>

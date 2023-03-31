@@ -55,31 +55,44 @@ form label {
 form input {
     padding: 0.5rem;
     font-size: 1.4rem;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: rgb(233, 233, 233);
 }
 form textarea{
+    background-color: transparent;
     padding: 0.5rem;
     font-size: 1.47rem;
     outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
 }
+
 
 .form-btn{
     text-transform: capitalize;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 0.5rem 2rem;
     font-size: 1.5rem;
     font-weight: bold;
     outline: none;
     margin: 0rem 4.48rem;
     transition: .6s;
-    background-color: black;
-    color: white;
+ border: none;
+    background-image: linear-gradient(to left bottom, #0966f1, #765efc, #b153fd, #e13df7, #fa06d9);
+
+    color: #faf9fa;
 
 }
 
 .form-btn:hover{
 outline: none;
-background-color: white;
-color: black;
+/* background-color: white; */
+/* color: black; */
+transform: scale(1.1);
 
 }
 /* contact media query */

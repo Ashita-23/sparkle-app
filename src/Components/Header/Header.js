@@ -13,6 +13,9 @@ const Header = ()=>{
          <li><a href="#about">about</a></li>
         </ul>
         </div>
+        <div className="link_btn">
+            <span><i class="fa-solid fa-bars bar_icon"></i></span>
+        </div>
     </nav>
  </div>
     </>)
