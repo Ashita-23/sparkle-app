@@ -1,8 +1,9 @@
 import "./App.css";
-import './Components/Header/utilityStyle.css'
+import "./Components/Header/utilityStyle.css";
 import Header from "./Components/Header/Header";
 import Home from "./Components/Header/Home";
 import ServiceBox from "./Components/Body/Service";
+import MenuCard from "./Components/Body/MenuCard";
 import About from "./Components/Body/About";
 import Contact from "./Components/Footer/Contact";
 import Footer from "./Components/Footer/Footer";
@@ -12,9 +13,9 @@ function App() {
     <>
       <Header></Header>
       <Home></Home>
-     
-  
-    <ServiceBox></ServiceBox>
+
+      <ServiceBox></ServiceBox>
+      <MenuCard></MenuCard>
 
       <About></About>
       <Contact></Contact>
