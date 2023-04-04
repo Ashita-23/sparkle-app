@@ -1,5 +1,5 @@
 .service-card{
-height: 30vh;
+height: 32vh;
 width: 16vw;
 /* border: 1px solid black; */
 /* border-radius: 10px; */
@@ -11,7 +11,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 flex-wrap: nowrap;
-justify-content: space-around;
+justify-content: space-evenly;
 /* padding: 0.5rem; */
 margin: 2rem 1.2rem;
 transition: 1s;
@@ -21,14 +21,15 @@ transition: 1s;
     transform: scale(1.1);
 }
 .service-card-img-box{
-border: 1px solid black;
+/* border: 1px solid black; */
 height: 22vh;
-width: 14vw;
+width: 14.5vw;
 margin: 0.5rem;
 }
 .service-card-img{
-height: 100px;
-width: 100px;
+    height: 20vh;
+    width: 14.5vw;
+    /* border: 1px solid red; */
 }
 .service-name{
 font-size: 1.5rem;

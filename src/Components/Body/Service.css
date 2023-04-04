@@ -40,7 +40,19 @@ margin-top: 0.5rem;
     flex-wrap: wrap;
     /* flex-flow: row-reverse; */
     /* flex-wrap: nowrap; */
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-evenly;
 
   }
+
+/* 
+  @media (max-width: 800px) {
+    .serviceCards-holder{
+      
+    flex-direction:column;
+    
+
+  }
+
+  } */
+

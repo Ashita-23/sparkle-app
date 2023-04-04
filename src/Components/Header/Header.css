@@ -111,6 +111,10 @@ nav ul li:hover {
     display: none;
 
   }
+
+  html{
+    scroll-behavior: smooth;
+  }
   
   .link_btn{
     display: initial;

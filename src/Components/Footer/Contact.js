@@ -2,15 +2,12 @@ import React, { useState } from "react";
 import "./Contact.css";
 
 const Contact = () => {
-  const [inputData, setNewInput] = useState(
-
-{
-     name: " ",
-     phoneNo: " ",
-     email: " ",
-   message: " ",
-}
-  );
+  const [inputData, setNewInput] = useState({
+    name: " ",
+    phoneNo: " ",
+    email: " ",
+    message: " ",
+  });
   return (
     <>
       <div className="contact-containor">
