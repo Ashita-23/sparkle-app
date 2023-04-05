@@ -68,8 +68,29 @@ transition: .5s;
 /* services media query */
 
 
-@media (min-width:640px) {
-        
+@media (min-width:370px) {
+    .service-card{
+      height: 50vh;
+        width: 60vw; 
+        }
+        .service-card-img-box{
+            /* border: 1px solid black; */
+            height: 30vh;
+            width: 54vw;
+            margin: 0.5rem;
+            }
+            .service-card-img{
+                height: 30vh;
+                width: 54vw;
+                /* border: 1px solid red; */
+                object-fit: fill;
+            }
+            .service-name{
+                font-size: 1.1rem;
+                /* padding: 0.5rem;
+                font-weight: bolder;
+                text-transform: capitalize; */
+                }
 }
 
 @media (min-width:768px) {

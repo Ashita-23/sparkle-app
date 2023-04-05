@@ -2,7 +2,7 @@
      
     /* border: 1px solid black; */
     height: auto;
-    width: 99vw;
+    width: 99.6vw;
     /* padding: 2rem; */
     display: flex;
     flex-direction: column;
@@ -45,14 +45,36 @@ margin-top: 0.5rem;
 
   }
 
-/* 
-  @media (max-width: 800px) {
-    .serviceCards-holder{
-      
-    flex-direction:column;
-    
+
+/*Service media query */
+
+
+@media (min-width:370px) {
+        .serviceCards-holder{
+      /* border: 1px solid black; */
+      width: 99vw;
+      flex-direction: column;
+  
+     align-items: center; 
+    justify-content: space-evenly; 
 
   }
 
-  } */
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:1280px) {
+
+}
+
+@media (max-width:1536px) {
+
+}
 

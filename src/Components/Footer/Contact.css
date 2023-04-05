@@ -98,8 +98,53 @@ transform: scale(1.1);
 /* contact media query */
 
 
-@media (min-width:640px) {
-        
+@media (min-width:370px) {
+    .contact-containor{
+/*        
+        border: 1px solid black; */
+        height: auto;
+        width: 99vw;
+}
+
+.contact-heading{
+    padding: 1rem 0rem;
+   
+   
+}
+
+.contact-form{
+   backdrop-filter: blur(30px);
+    padding: 1rem;
+    /* border: 1px solid red; */
+    margin-bottom: 1.5rem;
+
+}
+
+form label {
+   
+    font-size: 1.2rem;
+}
+
+form input {
+    
+    font-size: 1.2rem;
+   
+}
+
+form textarea{
+  
+    font-size: 1.3rem;
+   
+}
+
+
+.form-btn{
+  
+    font-size: 1.2rem;
+   
+}
+
+
 }
 
 @media (min-width:768px) {

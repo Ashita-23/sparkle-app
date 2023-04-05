@@ -13,12 +13,9 @@ const ServiceBox =()=>{
 <p className="service-heading">our services</p>
 <div className="serviceCards-holder">
 
-
 {
  ServiceApi.map((values)=>{
-        return(<Services  key={values.id} cardData = {values}/>
-             )
-    })
+        return(<Services  key={values.id} cardData = {values}/> )})
 }
 
 </div>
