@@ -16,11 +16,8 @@ const ServiceBox =()=>{
 
 {
  ServiceApi.map((values)=>{
-        return(
-            <>
-            <Services cardData = {values} />
-            </>
-        )
+        return(<Services  key={values.id} cardData = {values}/>
+             )
     })
 }
 

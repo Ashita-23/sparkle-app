@@ -51,7 +51,7 @@ export const ServiceApi = [
   {
     id: "100S",
     imgs: "https://images.unsplash.com/photo-1545150665-c72a8f0cf311?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80 ",
-    title: "BUSINESS PARTY ",
+    title: "BUSINESS-PARTY ",
   },
   {
     id: "111S",
@@ -61,7 +61,7 @@ export const ServiceApi = [
   {
     id: "112S",
     imgs: "https://images.unsplash.com/photo-1548386135-b47fa5a79ae6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80 ",
-    title: "DIWALI PARTY ",
+    title: "DIWALI-PARTY ",
   },
 ];
 

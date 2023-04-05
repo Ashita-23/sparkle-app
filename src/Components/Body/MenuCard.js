@@ -9,16 +9,17 @@ const MenuCard = () => {
 <h1 className="menu-header">Our Menu</h1>
 <div className="menu-cards-holder">
 
-{  MenuApi.map((val) => {
-    return(<>
-        <div className="menu-cards" key={val.id}>
+{  MenuApi.map((values) => {
+    return(<React.Fragment key={values.id}>
+        <div className="menu-cards" >
   <figure className="img-box">
-  <img src={val.imgs} alt="images" className="image"/> 
+  <img src={values.imgs} alt="images" className="image"/> 
   </figure>
- <p className="menu-name">{val.title}</p>
+ <p className="menu-name">{values
+ .title}</p>
  <button className="service-btn">Book Now</button>
     </div>
-    </>)
+    </React.Fragment>)
 })
    }
    </div>

@@ -5,11 +5,11 @@ import "./ServiceCard.css"
 
 
 const  Services = (props) =>{
-const{cardData} = props
-    const {id , imgs , title} = cardData
-//    console.log(props)
+const{cardData } = props
+    const {imgs , title} = cardData
+//    console.log(id)
     return(<>
-        <div className="service-card" keys={id}>
+        <div className="service-card" >
             <figure className="service-card-img-box">
                 <img className="service-card-img" src={imgs} alt="Service_image"/>
             </figure>

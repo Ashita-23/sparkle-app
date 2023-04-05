@@ -7,10 +7,10 @@ const Header = ()=>{
         <div className="nav-logo"> <i className="fa-solid fa-star-half-stroke"></i><span>{" "}</span>Sparkle</div>
         <div className="nav-links">
         <ul>
-         <li><a href="#home">home</a></li>
-         <li><a href="#services">services</a></li>
-         <li><a href="#contact">contact</a></li>
-         <li><a href="#about">about</a></li>
+         <li><a href="src\Components\Header\Home.js">home</a></li>
+         <li><a href="src\Components\Body\Service.js">services</a></li>
+         <li><a href="src\Components\Footer\Contact.js">contact</a></li>
+         <li><a href="src\Components\Body\About.js">about</a></li>
         </ul>
         </div>
         <div className="link_btn">
