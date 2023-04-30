@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 #Sparkle
 
-##folowing things that I had used in this page.
+##following things that I had used in this page.
 .react
 .css3
 .css mediaQuery
