@@ -3,43 +3,50 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 #Sparkle -- an event organizer website .
 
-##following things that I had used in this project.
+##Following things that I had used in this project.
 
-.React
+--React
 
-.Css3
+--Css3 for styling 
 
-.Css mediaQuery
+--Css media query for responsiveness
 
-.Jsx
+--Jsx 
 
-.Functional components
+--Functional components
 
-.React hooks
+--React hooks
 
-.Mock data api
+--Mock data api
 
 ##This wedsite is fully responsive ,  Landing page it have following pages :
 
 #Home
-.Navigation
-.Intro of Sparkle 
+
+--Navigation
+
+--of Sparkle 
 
 #Servies
-.servies cards
-.menu cards
+
+--Servies cards
+
+--Menu cards
 
 #About
-.happy clients
-.total events
-.number of emploes
+
+--Happy clients
+
+--Total events 
+
+--Number of emploeis
 
 #Contact
-.form
-.location
-.contact no
+
+--Contact form
 
 #Footer
-.location
+
+--Location and other details 
 
 
