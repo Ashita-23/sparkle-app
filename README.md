@@ -4,13 +4,20 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 #Sparkle -- an event organizer website .
 
 ##following things that I had used in this project.
-.react
-.css3
-.css mediaQuery
-.jsx
-.functional components
-.react hooks
-.mock data api
+
+.React
+
+.Css3
+
+.Css mediaQuery
+
+.Jsx
+
+.Functional components
+
+.React hooks
+
+.Mock data api
 
 ##This wedsite is fully responsive ,  Landing page it have following pages :
 
