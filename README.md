@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-#Sparkle
+#Sparkle -- an event organizer website .
 
 ##following things that I had used in this page.
 .react
@@ -9,10 +9,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 .css mediaQuery
 .jsx
 .functional components
-.useStatus () Hook
+.react hooks
 .mock data api
 
-##It is a fully responsive simple Landing page it have following things :
+##This wedsite is fully responsive ,  Landing page it have following pages :
 
 #Home
 .Navigation
