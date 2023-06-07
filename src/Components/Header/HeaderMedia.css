@@ -40,10 +40,6 @@ display: none;
 .nav-link-box{
 display: none;
 }
-  
-
-    
-
 
 }
 
@@ -51,12 +47,24 @@ display: none;
   .header-nav{
     /* border: 1px solid red; */
     height: 6vh;
-    width: 99vw;
+    width: 100%;
   }
 
   .nav-link-box{
     display: flex;
+    margin-right: 1rem;
    }
+   
+  .nav-links{
+      margin: 0.5rem 0.2rem;
+  }
+  
+  .nav-links-a {
+  /* border: 1px solid red; */
+  padding: 0.5rem 0.5rem;
+
+  }
+ 
   .link_btn{
     display: none;
   }
@@ -68,7 +76,7 @@ display: none;
   .header-nav{
     /* border: 1px solid red; */
     height: 6vh;
-    width: 99vw;
+    width: 100%;
   }
 
   .nav-link-box{
