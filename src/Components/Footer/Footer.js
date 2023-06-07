@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import "./FooterMedia.css";
 
 const Footer = () => {
   return (
@@ -13,7 +14,7 @@ const Footer = () => {
           <p className="social-title">
             {" "}
             Sparkle serve you best catering service in Haryana NCR as we serve
-            you with the top-notch quality of food and other services
+            you with the top-notch quality of food and other services.
           </p>
           <div className="social-icons">
             <p>
@@ -36,25 +37,27 @@ const Footer = () => {
 
         <div className="address-containor">
           <p className="address-box">
-        
-            <i className="fa-solid fa-location-dot locations-gmail"></i><span>{" "}</span>
+            <i className="fa-solid fa-location-dot locations-gmail"></i>
+            <span> </span>
             Aggarwal Tower, Block CU, Office No. 301, 302, Behind Income Tax
-            Colony, Pitampura, New Delhi - 110034, India
+            Colony, Pitampura, New Delhi - 110034, India .
           </p>
           <p className="address-box">
-            <i className="fa-solid fa-phone pcall"></i> <span>{" "}</span>+91-9910277066
+            <i className="fa-solid fa-phone pcall"></i> <span> </span>
+            +91-9910277066
           </p>
           <p className="address-box">
-            <i className="fa-solid fa-at locations-gmail"></i> <span>{" "}</span>sparkle302@gmail.com
+            <i className="fa-solid fa-at locations-gmail"></i> <span> </span>
+            sparkle302@gmail.com
           </p>
         </div>
       </div>
       <div className="footer-subcontainor">
-        
-          <p>
-          Copyright <span>{" "}</span><i className="fa-regular fa-copyright"></i> 2019 · All Rights Reserved Sparkle .
-          </p>
-      
+        <p>
+          Copyright <span> </span>
+          <i className="fa-regular fa-copyright"></i> 2019 · All Rights Reserved
+          Sparkle .
+        </p>
       </div>
     </>
   );
