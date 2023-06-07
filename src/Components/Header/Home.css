@@ -1,6 +1,7 @@
 .home-containor {
   
   /* border: 1px solid black; */
+
   height: 60vh;
   width: 99vw;
   display: flex;
@@ -20,15 +21,15 @@
   flex-wrap: nowrap;
   align-items: center;
   justify-content: center;
+  position: absolute;
   height: 40vh;
   width: 70vw;
   /* border: 1px solid black; */
-  background-color: black;
-  opacity: 0.8;
-  box-shadow: rgba(205, 79, 255, 0.25) 0px 50px 100px -20px, rgba(120, 7, 124, 0.3) 0px 30px 60px -30px;
-  /* box-shadow: 0px 0px 8px rgb(95, 0, 119); */
+  background-color: rgb(10, 10, 10);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   color: white;
-  /* opacity: 0.8; */
+ opacity: 0.9;
+ 
 }
 
 .card-heading {
@@ -36,7 +37,7 @@
     padding: 0.5rem;
     text-align: center;
     word-spacing: 0.3rem;
-    z-index: 10;
+    /* z-index: 10; */
 }
 
 .card-subheading {
@@ -44,7 +45,7 @@
     text-align: center;
     padding: 0.5rem;
     word-spacing: 0.15rem;
-    z-index: 10;
+    /* z-index: 10; */
 }
 
 .card-descreption {
@@ -52,11 +53,11 @@
     font-size: 1.1rem;
     padding: 1rem 1.5rem;
     word-spacing: 0.1rem;
-    z-index: 10;
+    /* z-index: 10; */
 }
 
 .home-btn {
-  z-index: 10;
+
   text-transform: capitalize;
   padding: 0.6rem;
   font-size: 1.1rem;
@@ -77,184 +78,3 @@
   /* border: 1px solid rgb(253, 251, 251); */
 }
 
-/* Home media query */
-
-@media (max-width: 375px) {
-  .home-containor {
-  
-    /* border: 1px solid black; */
-    height: 80vh;
-    width: 100vw;
-  }
-  .home-card {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: center;
-    height: 70vh;
-    width: 80vw;
-    /* border: 1px solid rgb(255, 252, 252); */
-    background-color: black;
-    opacity: 0.8;
-    box-shadow: rgba(205, 79, 255, 0.25) 0px 50px 100px -20px, rgba(120, 7, 124, 0.3) 0px 30px 60px -30px;
-    /* box-shadow: 0px 0px 8px rgb(95, 0, 119); */
-    color: white;
-    padding: 0.5rem;
-    /* opacity: 0.8; */
-  }
-  
-  .card-heading {
-      font-size: 1.3rem;
-      padding: 0.3rem;
-      text-align: center;
-      word-spacing: 0.2rem;
-      z-index: 10;
-  }
-  
-  .card-subheading {
-      font-size: 1.1rem;
-      text-align: center;
-      padding: 0.3rem;
-      word-spacing: 0.5rem;
-      z-index: 10;
-  }
-  
-  .card-descreption {
-      text-align:justify;
-      font-size: 1rem;
-      padding: 1rem 1rem;
-      word-spacing: 0.1rem;
-      z-index: 10;
-  }
-  
-  .home-btn {
-
-    padding: 0.4rem;
-    font-size: 1rem;
-   
-  }
-  
-}
-@media (max-width: 640px) {
-  .home-containor {
-  
-    /* border: 1px solid black; */
-    height: 80vh;
-    width: 100vw;
-  }
-  .home-card {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: center;
-    height: 70vh;
-    width: 80vw;
-    /* border: 1px solid rgb(255, 252, 252); */
-    background-color: black;
-    opacity: 0.8;
-    box-shadow: rgba(205, 79, 255, 0.25) 0px 50px 100px -20px, rgba(120, 7, 124, 0.3) 0px 30px 60px -30px;
-    /* box-shadow: 0px 0px 8px rgb(95, 0, 119); */
-    color: white;
-    padding: 0.5rem;
-    /* opacity: 0.8; */
-  }
-  
-  .card-heading {
-      font-size: 1.3rem;
-      padding: 0.3rem;
-      text-align: center;
-      word-spacing: 0.2rem;
-      z-index: 10;
-  }
-  
-  .card-subheading {
-      font-size: 1.1rem;
-      text-align: center;
-      padding: 0.3rem;
-      word-spacing: 0.5rem;
-      z-index: 10;
-  }
-  
-  .card-descreption {
-      text-align:justify;
-      font-size: 1rem;
-      padding: 1rem 1rem;
-      word-spacing: 0.1rem;
-      z-index: 10;
-  }
-  
-  .home-btn {
-
-    padding: 0.4rem;
-    font-size: 1rem;
-   
-  }
-}
-
-@media (max-width: 768px) {
-  .home-containor {
-  
-    /* border: 1px solid black; */
-    height: 80vh;
-    width: 100vw;
-  }
-  .home-card {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: center;
-    height: 70vh;
-    width: 80vw;
-    /* border: 1px solid rgb(255, 252, 252); */
-    background-color: black;
-    opacity: 0.8;
-    box-shadow: rgba(205, 79, 255, 0.25) 0px 50px 100px -20px, rgba(120, 7, 124, 0.3) 0px 30px 60px -30px;
-    /* box-shadow: 0px 0px 8px rgb(95, 0, 119); */
-    color: white;
-    padding: 0.5rem;
-    /* opacity: 0.8; */
-  }
-  
-  .card-heading {
-      font-size: 1.3rem;
-      padding: 0.3rem;
-      text-align: center;
-      word-spacing: 0.2rem;
-      z-index: 10;
-  }
-  
-  .card-subheading {
-      font-size: 1.1rem;
-      text-align: center;
-      padding: 0.3rem;
-      word-spacing: 0.5rem;
-      z-index: 10;
-  }
-  
-  .card-descreption {
-      text-align:justify;
-      font-size: 1rem;
-      padding: 1rem 1rem;
-      word-spacing: 0.1rem;
-      z-index: 10;
-  }
-  
-  .home-btn {
-
-    padding: 0.4rem;
-    font-size: 1rem;
-   
-  }
-}
-
-@media (max-width: 1024px) {
-}
-
-@media (max-width: 1280px) {
-}
-
-@media (max-width: 1536px) {
-}
