@@ -1,0 +1,33 @@
+
+
+.error_outer{
+height: 90vh;
+width: 99vw;
+display: flex;
+flex-direction: row;
+align-items: center;
+flex-wrap: nowrap;
+justify-content: center;
+/* border: 1px solid red; */
+
+}
+
+.error_box{
+    height:50vh;
+    width: 70vh;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    
+}
+
+.icon_box{
+    padding: 0.5rem;
+    color: red;
+}
+.error_text{
+text-align: center;
+font-size: 2.2rem;
+}
