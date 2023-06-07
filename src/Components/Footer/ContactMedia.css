@@ -1,0 +1,249 @@
+
+/* @media (min-width: 280px){
+    .contact-containor {
+        height: 75vh;
+      }
+      .contact-form {
+        padding: 1.2rem;
+        border: 0.5px solid white;
+      }
+      form label {
+        padding: 0.3rem;
+        border: 1px solid red;
+        font-size: 1.2rem;
+      }
+    
+      form input {
+        font-size: 1.3rem;
+      }
+    
+      form textarea {
+        font-size: 1.2rem;
+      }
+    
+      .form-btn {
+        border: 1px solid black;
+        padding: 0.5rem 1.5rem;
+        font-size: 1.2rem;
+        margin: 0rem 4.48rem;
+      }
+} */
+@media (min-width: 360px){
+    .contact-containor {
+        height: 75vh;
+      }
+      .contact-form {
+        padding: 1.2rem;
+        border: 0.5px solid white;
+      }
+      form label {
+        padding: 0.3rem;
+        /* border: 1px solid red; */
+        font-size: 1.2rem;
+      }
+    
+      form input {
+        font-size: 1.3rem;
+      }
+    
+      form textarea {
+        font-size: 1.2rem;
+      }
+    
+      .form-btn {
+        /* border: 1px solid black; */
+        padding: 0.5rem 1.5rem;
+        font-size: 1.2rem;
+        margin: 0rem 4.48rem;
+      }
+}
+@media (min-width: 370px) {
+  .contact-containor {
+    height: 80vh;
+  }
+  .contact-form {
+    padding: 1.2rem;
+    border: 0.5px solid white;
+  }
+  form label {
+    padding: 0.3rem;
+    /* border: 1px solid red; */
+    font-size: 1.2rem;
+  }
+
+  form input {
+    font-size: 1.3rem;
+  }
+
+  form textarea {
+    font-size: 1.2rem;
+  }
+
+  .form-btn {
+    /* border: 1px solid black; */
+    padding: 0.5rem 1.5rem;
+    font-size: 1.2rem;
+    margin: 0rem 4.48rem;
+  }
+}
+
+@media (min-width: 768px) {
+    .contact-containor {
+        height: 63vh;
+      }
+      .contact-form {
+        padding: 1.5rem 4rem;
+        border: 0.5px solid white;
+      }
+      form label {
+        padding: 0.5rem;
+        /* border: 1px solid red; */
+        font-size: 1.4rem;
+      }
+    
+      form input {
+        padding: 0.5rem;
+      font-size: 1.4rem;
+      }
+    
+      form textarea {
+        padding: 0.5rem;
+        font-size: 1.47rem;
+      }
+    
+      .form-btn {
+        /* border: 1px solid black; */
+        padding: 0.5rem 2rem;
+        font-size: 1.4rem;
+        margin: 0rem 4.48rem;
+      }
+  
+}
+@media (min-width: 912px) {
+ 
+    .contact-containor {
+      height: 63vh;
+    }
+    .contact-form {
+      padding: 1.5rem 4rem;
+      border: 0.5px solid white;
+    }
+    form label {
+      padding: 0.5rem;
+      /* border: 1px solid red; */
+      font-size: 1.4rem;
+    }
+  
+    form input {
+      padding: 0.5rem;
+    font-size: 1.4rem;
+    }
+  
+    form textarea {
+      padding: 0.5rem;
+      font-size: 1.47rem;
+    }
+  
+    .form-btn {
+      /* border: 1px solid black; */
+      padding: 0.5rem 2rem;
+      font-size: 1.4rem;
+      margin: 0rem 4.48rem;
+    }
+  }
+@media (min-width: 1024px) {
+ 
+  .contact-containor {
+    height: 96vh;
+  }
+  .contact-form {
+    padding: 1rem 2.2rem;
+    border: 0.5px solid white;
+  }
+  form label {
+    padding: 0.5rem;
+    /* border: 1px solid red; */
+    font-size: 1.3rem;
+  }
+
+  form input {
+    padding: 0.5rem;
+  font-size: 1.2rem;
+  }
+
+  form textarea {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+  }
+
+  .form-btn {
+    /* border: 1px solid black; */
+    padding: 0.5rem 2rem;
+    font-size: 1.2rem;
+    margin: 0rem 4.48rem;
+  }
+}
+
+@media (min-width: 1280px) {
+    .contact-containor {
+        height: 80vh;
+      }
+      .contact-form {
+        padding: 1.5rem 4rem;
+        border: 0.5px solid white;
+      }
+      form label {
+        padding: 0.5rem;
+        /* border: 1px solid red; */
+        font-size: 1.4rem;
+      }
+    
+      form input {
+        padding: 0.5rem;
+      font-size: 1.4rem;
+      }
+    
+      form textarea {
+        padding: 0.5rem;
+        font-size: 1.47rem;
+      }
+    
+      .form-btn {
+        /* border: 1px solid black; */
+        padding: 0.5rem 2rem;
+        font-size: 1.4rem;
+        margin: 0rem 4.48rem;
+      }
+}
+
+@media (min-width: 1536px) {
+    .contact-containor {
+        height:70vh;
+      }
+      .contact-form {
+        padding: 1.5rem 4rem;
+        border: 0.5px solid white;
+      }
+      form label {
+        padding: 0.5rem;
+        /* border: 1px solid red; */
+        font-size: 1.4rem;
+      }
+    
+      form input {
+        padding: 0.5rem;
+      font-size: 1.4rem;
+      }
+    
+      form textarea {
+        padding: 0.5rem;
+        font-size: 1.47rem;
+      }
+    
+      .form-btn {
+        /* border: 1px solid black; */
+        padding: 0.5rem 2rem;
+        font-size: 1.4rem;
+        margin: 0rem 4.48rem;
+      }
+}
