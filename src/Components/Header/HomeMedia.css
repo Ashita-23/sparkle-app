@@ -1,0 +1,355 @@
+/* Home media query */
+/* @media (min-width: 280px) {
+  .home-containor {  
+    border: 1px solid rgb(165, 47, 47);
+    height: 80vh;
+    width: 100vw;
+  }
+
+  .home-card {
+    height: 64vh;
+    width: 90vw;
+    border: 1px solid rgb(252, 248, 248);
+   padding: 0.5rem;  
+  }
+  .card-heading {
+      font-size: 1.3rem;
+      padding: 0.3rem;
+      text-align: center;
+      word-spacing: 0.2rem;    
+  }
+  
+  .card-subheading {
+      font-size: 1.1rem;
+      text-align: center;
+      padding: 0.3rem;
+      word-spacing: 0.5rem;
+  }
+  
+  .card-descreption {
+      text-align:justify;
+      font-size: 1rem;
+      padding: 1rem 1rem;
+      word-spacing: 0.1rem;
+  }
+  
+  .home-btn {
+    padding: 0.4rem;
+    font-size: 1rem;
+  }
+  
+} */
+@media (min-width: 360px) {
+    .home-containor {  
+      /* border: 1px solid rgb(165, 47, 47); */
+      padding-top: 20px;
+      height: 80vh;
+      width: 100vw;
+      /* margin-top: 100px; */
+    }
+  
+    .home-card {
+      height: 64vh;
+      width: 90vw;
+      /* border: 1px solid rgb(252, 248, 248); */
+     padding: 0.5rem;  
+    }
+    .card-heading {
+        font-size: 1.3rem;
+        padding: 0.3rem;
+        text-align: center;
+        word-spacing: 0.2rem;    
+    }
+    
+    .card-subheading {
+        font-size: 1.1rem;
+        text-align: center;
+        padding: 0.3rem;
+        word-spacing: 0.5rem;
+    }
+    
+    .card-descreption {
+        text-align:justify;
+        font-size: 1rem;
+        padding: 1rem 1rem;
+        word-spacing: 0.1rem;
+    }
+    
+    .home-btn {
+      padding: 0.4rem;
+      font-size: 1rem;
+    }
+    
+  }
+  
+  @media (min-width: 375px) {
+    .home-containor {  
+      /* border: 1px solid rgb(165, 47, 47); */
+      height: 80vh;
+      width: 100vw;
+    }
+  
+    .home-card {
+      height: 64vh;
+      width: 90vw;
+      /* border: 1px solid rgb(252, 248, 248); */
+     padding: 0.5rem;  
+    }
+    .card-heading {
+        font-size: 1.3rem;
+        padding: 0.3rem;
+        text-align: center;
+        word-spacing: 0.2rem;    
+    }
+    
+    .card-subheading {
+        font-size: 1.1rem;
+        text-align: center;
+        padding: 0.3rem;
+        word-spacing: 0.5rem;
+    }
+    
+    .card-descreption {
+        text-align:justify;
+        font-size: 1rem;
+        padding: 1rem 1rem;
+        word-spacing: 0.1rem;
+    }
+    
+    .home-btn {
+      padding: 0.4rem;
+      font-size: 1rem;
+    }
+    
+  }
+  @media (min-width: 640px) {
+    .home-containor {
+    
+      /* border: 1px solid black; */
+      height: 80vh;
+      width: 100vw;
+    }
+  
+    
+  .home-card {
+    height: 70vh;
+    width: 80vw;
+    /* border: 1px solid black; */
+  
+  }
+    .card-heading {
+        font-size: 1.3rem;
+        padding: 0.3rem;
+        text-align: center;
+        word-spacing: 0.2rem;
+    }
+    
+    .card-subheading {
+        font-size: 1.1rem;
+        text-align: center;
+        padding: 0.3rem;
+        word-spacing: 0.5rem;
+    }
+    
+    .card-descreption {
+        text-align:justify;
+        font-size: 1rem;
+        padding: 1rem 1rem;
+        word-spacing: 0.1rem;
+    }
+    
+    .home-btn {
+      padding: 0.4rem;
+      font-size: 1rem;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .home-containor {
+      /* border: 1px solid black; */
+      height: 80vh;
+      width: 100vw;
+    }
+  .home-card {
+  
+    height: 40vh;
+    width: 70vw;
+    /* border: 1px solid black; */
+  }
+    .card-heading {
+        /* border: 1px solid red; */
+        font-size: 1.3rem;
+        padding: 0.3rem;
+        word-spacing: 0.2rem;
+    }
+    
+    
+    .card-subheading {
+        font-size: 1.1rem;
+        padding: 0.3rem;
+        word-spacing: 0.5rem;
+        /* border: 1px solid red; */
+    }
+    
+    .card-descreption {
+        /* border: 1px solid red; */
+        text-align:justify;
+        font-size: 1rem;
+        padding: 1rem 1rem;
+        word-spacing: 0.1rem;
+        /* z-index: 10; */
+    }
+    
+    .home-btn {
+        /* border: 1px solid red; */
+      padding: 0.4rem;
+      font-size: 1rem;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+     .home-containor {
+      /* border: 1px solid black; */
+      height: 78vh;
+      width: 100%;
+    }
+  
+    .home-card {
+      height: 50vh;
+      width: 70vw;
+      /* border: 1px solid black; */     
+    }
+    
+    .card-heading {
+      font-size: 2rem;
+      padding: 0.5rem;
+      text-align: center;
+      word-spacing: 0.3rem;
+      /* z-index: 10; */
+  }
+  
+  .card-subheading {
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 0.5rem;
+    word-spacing: 0.15rem;
+    /* z-index: 10; */
+  }
+  
+  .card-descreption {
+    text-align:center;
+    font-size: 1.1rem;
+    padding: 1rem 1.5rem;
+    word-spacing: 0.1rem;
+    /* z-index: 10; */
+  }
+  
+
+  .home-btn {
+  padding: 0.6rem;
+  font-size: 1.1rem;
+  }
+  }
+  
+  
+  
+  @media (min-width: 1280px) {
+     .home-containor {
+      /* border: 1px solid black; */
+      height: 60vh;
+      width: 99vw;
+    }
+  
+    .home-card {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-items: center;
+      justify-content: center;
+      height: 40vh;
+      width: 70vw;
+      /* border: 1px solid black; */
+   
+    }
+    .card-heading {
+      font-size: 2rem;
+      padding: 0.5rem;
+      word-spacing: 0.3rem;
+      /* z-index: 10; */
+  }
+  
+  .card-subheading {
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    word-spacing: 0.15rem;
+    /* z-index: 10; */
+  }
+  
+  .card-descreption {
+    font-size: 1.1rem;
+    padding: 1rem 1.5rem;
+    word-spacing: 0.1rem;
+    /* z-index: 10; */
+  }
+  
+  .home-btn {
+  padding: 0.6rem;
+  font-size: 1.1rem;
+  /* border: 1px solid black; */
+  }
+   
+  .nav-links-a {
+    font-size: 1.1rem;
+    /* border: 1px solid red; */
+    padding: 0.5rem 1.5rem;
+    }
+   
+  }
+  
+  
+  @media (min-width: 1536px) {
+    .home-containor {
+      top: 60px;
+      /* border: 1px solid black; */
+      height: 60vh;
+      width: 99vw;
+     
+    }
+  
+    .home-card {
+      height: 40vh;
+      width: 70vw;
+      /* border: 1px solid black; */
+    }
+    .card-heading {
+      font-size: 2rem;
+      padding: 0.5rem;
+      word-spacing: 0.3rem;
+      /* z-index: 10; */
+  }
+  
+  .card-subheading {
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    word-spacing: 0.15rem;
+    /* z-index: 10; */
+  }
+  
+  .card-descreption {
+    font-size: 1.1rem;
+    padding: 1rem 1.5rem;
+    word-spacing: 0.1rem;
+    /* z-index: 10; */
+  }
+  .nav-links-a {
+    font-size: 1.1rem;
+    /* border: 1px solid red; */
+    padding: 0.5rem 2rem;
+    }
+  .home-btn {
+  font-size: 1.1rem;
+  /* border: 1px solid black; */
+  }
+   
+  }
+  
