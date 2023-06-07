@@ -7,7 +7,6 @@
         height: 50vh;
         width: 80vw; 
         /* border: 1px solid red; */
-       
     }
     
 .img-box{
@@ -15,62 +14,126 @@
     width: 70vw;
     margin: 0.5rem;
     /* border: 1px solid red; */
-
     }
  
 .image{
     height: 30vh;
     width: 70vw;
-
     /* border: 1px solid red; */
-
-    
 }
-
 
 .menu-name{
     font-size: 1.1rem;
     /* padding: 0.5rem; */
     /* border: 1px solid red; */
-   
 }
 
+}
+@media (min-width:375px) {
+    .menu-cards{
+        height: 50vh;
+        width: 80vw; 
+        /* border: 1px solid red; */
+    }
     
+.img-box{
+    height: 30vh;
+    width: 70vw;
+    margin: 0.5rem;
+    /* border: 1px solid red; */
+    }
+ 
+.image{
+    height: 30vh;
+    width: 70vw;
+    /* border: 1px solid red; */
+}
+
+.menu-name{
+    font-size: 1.1rem;
+    /* padding: 0.5rem; */
+    /* border: 1px solid red; */
+}
+
+}
+@media (min-width:500px) {
+    .menu-cards{
+        height: 50vh;
+        width: 70vw; 
+        /* border: 1px solid red; */
+    }
+    
+.img-box{
+    height: 30vh;
+    width: 62vw;
+    margin: 0.5rem;
+    /* border: 1px solid red; */
+    }
+ 
+.image{
+    height: 30vh;
+    width: 62vw;
+    /* border: 1px solid red; */
+}
+
+.menu-name{
+    font-size: 1.1rem;
+    /* padding: 0.5rem; */
+    /* border: 1px solid red; */
+}
+
+}
+@media (min-width:648px) {
+    .menu-cards{
+        height: 50vh;
+        width: 60vw; 
+        /* border: 1px solid red; */
+    }
+    
+.img-box{
+    height: 30vh;
+    width: 55vw;
+    margin: 0.5rem;
+    /* border: 1px solid red; */
+    }
+ 
+.image{
+    height: 30vh;
+    width: 55vw;
+    /* border: 1px solid red; */
+}
+
+.menu-name{
+    font-size: 1.1rem;
+    /* padding: 0.5rem; */
+    /* border: 1px solid red; */
+}
+
 }
 
 @media (min-width:768px) {
     .menu-cards{
         height: 36vh;
-        width: 34vw; 
+        width: 36vw; 
         /* border: 1px solid red; */
-       
     }
     
 .img-box{
     height: 20vh;
-    width: 30vw;
-
+    width: 32vw;
     margin: 0.5rem;
     /* border: 1px solid red; */
-
     }
  
 .image{
     height: 20vh;
-    width: 30vw;
-
-
-    /* border: 1px solid red; */
-
-    
+    width: 32vw;
+    /* border: 1px solid red; */ 
 }
-
 
 .menu-name{
     font-size: 1.1rem;
-    /* padding: 0.5rem; */
     /* border: 1px solid red; */
-   
 }
 
 }
@@ -113,21 +176,44 @@
 
 }
 
+@media (min-width:1050px) {
+    .menu-cards{
+        height: 36vh;
+        width: 30vw; 
+        /* border: 1px solid red;   */
+    }
+    
+.img-box{
+    height: 20vh;
+    width: 28vw;
+    margin: 0.5rem;
+    /* border: 1px solid red; */
+    }
+ 
+.image{
+    height: 20vh;
+    width: 28vw;
+    /* border: 1px solid red; */
+}
+
+.menu-name{
+    font-size: 1.1rem;
+}
+
+}
+
 @media (min-width:1280px) {
     .menu-cards{
         height: 36vh;
         width:26vw; 
         /* border: 1px solid red; */
-       
     }
     
 .img-box{
     height: 20vh;
     width: 24vw;
-
     margin: 0.5rem;
     /* border: 1px solid red; */
-
     }
  
 .image{
@@ -136,12 +222,8 @@
     /* border: 1px solid red; */
 }
 
-
 .menu-name{
     font-size: 1.1rem;
-    /* padding: 0.5rem; */
-    /* border: 1px solid red; */
-   
 }
 
 }
@@ -151,11 +233,8 @@
         height: 36vh;
         width: 18vw;
         border: 1px solid rgb(185, 185, 185);
-       
     }
-    
- 
-    
+
     .img-box{
         /* border: 1px solid black; */
         height: 22vh;
@@ -163,14 +242,10 @@
         margin: 1rem;
         }
      
-    
-    
     .image{
         height: 22vh;
         width: 16vw;
-
     }
-    
     
     .menu-name{
         font-size: 1.5rem;
@@ -178,7 +253,6 @@
         font-weight: bolder;
         text-transform: capitalize;
     }
-    
     
     .service-btn{
         background-image: linear-gradient(to left bottom, #0966f1, #765efc, #b153fd, #e13df7, #fa06d9);
@@ -197,13 +271,9 @@
     }
     
     .service-btn:hover{
-        /* transform: scale(1.1); */
-        /* background-color: rgb(7, 7, 7); */
-        /* color: #e979f3; */
         color: rgb(255, 254, 254);
         border-radius: 10px  ;
         /* border: 1px solid  #f9ca24; */
     }
-    
     
 }
