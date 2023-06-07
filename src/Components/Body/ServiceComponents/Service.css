@@ -1,0 +1,49 @@
+.service-card-containor{
+     
+    /* border: 1px solid black; */
+    height: auto;
+    
+    width: 99vw;
+    /* padding: 2rem; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    /* flex-flow: wrap-reverse; */
+    /* flex-wrap: nowrap; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* background-image: linear-gradient(to right top, #4f92f8, #8a93fa, #b694f9, #da95f3, #f898eb); */
+    /* background-image: linear-gradient(to right top, #2565c6, #6366d2, #9264d9, #be5fda, #e757d4); */
+    background-image: linear-gradient(to right, #f9fcff, #f0f4f7, #e7edef, #dee5e7, #d6dede);
+  }
+
+
+.service-heading{
+/* border: 1px solid black; */
+/* box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px; */
+/* background-image: linear-gradient(to left bottom, #014ec4, #5b48c8, #883ec6, #af2ec0, #d106b5); */
+text-align: center;
+text-transform: capitalize  ;
+font-size: 2.5rem;
+padding: 2rem ;
+word-spacing: 0.5rem;
+font-weight: 900;
+margin-top: 0.5rem;
+}
+
+.serviceCards-holder{
+      /* border: 1px solid black; */
+      /* padding: 1rem; */
+      height: auto;
+    width: 99vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* flex-flow: row-reverse; */
+    /* flex-wrap: nowrap; */
+    align-items: flex-start;
+    justify-content: space-evenly;
+
+  }
+
+
