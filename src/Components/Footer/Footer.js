@@ -30,7 +30,7 @@ const Footer = () => {
               <i className="fa-brands fa-youtube Utube"></i>
             </p>
             <p>
-              <i className="fa-brands fa-linkedin linkedins"></i>
+             <a href="https://www.linkedin.com/in/ashita-kr/" target="blank"> <i className="fa-brands fa-linkedin linkedins"></i></a>
             </p>
           </div>
         </div>

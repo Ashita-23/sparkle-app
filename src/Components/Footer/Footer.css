@@ -178,8 +178,12 @@
   color: greenyellow;
 }
 
+
+ a{
+  color: white;
+ }
 .footer-subcontainor {
-  height: auto;
+  height:auto;
   width: 99vw;
   padding: 0.2rem 0rem;
   text-align: center;

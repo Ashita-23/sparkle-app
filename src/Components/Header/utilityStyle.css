@@ -6,3 +6,30 @@
     text-decoration: none;
 }
 
+ul li a:active{
+  color: rgb(92, 161, 250);
+}
+
+html{
+  scroll-behavior: smooth;
+  offset: 800;
+transition:12s ease-in;
+}
+/* 
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000000;
+    
+  }
+
+::-webkit-scrollbar-thumb {
+    background: #eb0505; width:   10px;
+  }
+  
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555555;
+  }   */
