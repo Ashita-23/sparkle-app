@@ -35,6 +35,7 @@
   flex-wrap: nowrap;
   align-items: center;
   justify-content: space-between;
+  border: none;
 }
 
 
@@ -44,6 +45,7 @@
   font-size: 1.3rem;
   padding: 1rem 1.5rem;
   word-spacing: 0.1rem;
+  border: none;
 }
 
 .icons{
