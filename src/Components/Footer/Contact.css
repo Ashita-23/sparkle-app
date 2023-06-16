@@ -34,7 +34,7 @@
   flex-direction: column;
   /* flex-wrap: wrap; */
   flex-wrap: nowrap;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   border: 1px solid white;
   box-shadow: rgba(3, 3, 3, 0.19) 0px 10px 20px, rgba(3, 3, 3, 0.23) 0px 6px 6px;
@@ -60,6 +60,7 @@ form label {
 }
 
 form input {
+
   padding: 0.5rem;
   font-size: 1.4rem;
   background-color: transparent;
@@ -74,6 +75,7 @@ form input {
   opacity: 100;
 }
 form textarea {
+
   background-color: transparent;
   padding: 0.5rem;
   font-size: 1.47rem;

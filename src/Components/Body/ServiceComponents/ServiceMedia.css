@@ -1,6 +1,155 @@
 /*Service media query */
 
 
+@media (min-width:260px) {
+    .service-card-containor{
+  /*      
+      border: 1px solid black; */
+      height: auto;
+      width: 100%
+  
+  
+    }
+          .serviceCards-holder{
+        /* border: 1px solid black; */
+        width: 100%;
+        flex-direction: column;
+       align-items: center; 
+      justify-content: space-evenly; 
+  
+    }
+  
+  }
+@media (min-width:280px) {
+    .service-card-containor{
+  /*      
+      border: 1px solid black; */
+      height: auto;
+      width: 100%
+    }
+          .serviceCards-holder{
+        /* border: 1px solid black; */
+        width: 100%;
+        flex-direction: column;
+       align-items: center; 
+      justify-content: space-evenly; 
+    }
+  
+  }
+
+@media (min-width:300px) {
+    .service-card-containor{
+  /*      
+      border: 1px solid black; */
+      height: auto;
+      width: 100%
+  
+  
+    }
+          .serviceCards-holder{
+        /* border: 1px solid black; */
+        width: 100%;
+        flex-direction: column;
+       align-items: center; 
+      justify-content: space-evenly; 
+  
+    }
+  
+  }
+@media (min-width:310px) {
+    .service-card-containor{
+  /*      
+      border: 1px solid black; */
+      height: auto;
+      width: 100%
+    }
+          .serviceCards-holder{
+        /* border: 1px solid black; */
+        width: 100%;
+        flex-direction: column;
+       align-items: center; 
+      justify-content: space-evenly; 
+  
+    }
+  
+  }
+@media (min-width:345px) {
+    .service-card-containor{
+      /* border: 1px solid black;  */
+      height: auto;
+      width: 100%
+    }
+         
+    .serviceCards-holder{
+        /* border: 1px solid rgb(104, 24, 24); */
+        width: 100%;
+        flex-direction: column;
+       align-items: center; 
+      justify-content: space-evenly; 
+  
+    }
+  
+  }
+
+@media (min-width:354px) {
+    .service-card-containor{
+  /*      
+      border: 1px solid black; */
+      height: auto;
+      width: 100%
+  
+  
+    }
+          .serviceCards-holder{
+        /* border: 1px solid black; */
+        width: 100%;
+        flex-direction: column;
+       align-items: center; 
+      justify-content: space-evenly; 
+  
+    }
+  
+  }
+
+@media (min-width:360px) {
+    .service-card-containor{
+  /*      
+      border: 1px solid black; */
+      height: auto;
+      width: 100%
+  
+  
+    }
+          .serviceCards-holder{
+        /* border: 1px solid black; */
+        width: 100%;
+        flex-direction: column;
+       align-items: center; 
+      justify-content: space-evenly; 
+  
+    }
+  
+  }
+
+@media (min-width:370px) {
+    .service-card-containor{
+  /*      
+      border: 1px solid black; */
+      height: auto;
+      width: 100%
+  
+  
+    }
+          .serviceCards-holder{
+        /* border: 1px solid black; */
+        width: 100%;
+        flex-direction: column;
+       align-items: center; 
+      justify-content: space-evenly; 
+  
+    }
+  
+  }
 @media (min-width:375px) {
     .service-card-containor{
   /*      
@@ -14,6 +163,44 @@
         /* border: 1px solid black; */
         width: 100%;
         flex-direction: column;
+       align-items: center; 
+      justify-content: space-evenly; 
+  
+    }
+  
+  }
+@media (min-width:500px) {
+    .service-card-containor{
+  /*      
+      border: 1px solid black; */
+      height: auto;
+      width: 100%
+  
+  
+    }
+          .serviceCards-holder{
+        /* border: 1px solid black; */
+        width: 100%;
+        flex-direction: column;
+       align-items: center; 
+      justify-content: space-evenly; 
+  
+    }
+  
+  }
+@media (min-width:645px) {
+    .service-card-containor{
+  /*      
+      border: 1px solid black; */
+      height: auto;
+      width: 100%
+  
+  
+    }
+          .serviceCards-holder{
+        /* border: 1px solid black; */
+        width: 100%;
+        flex-direction: row;
        align-items: center; 
       justify-content: space-evenly; 
   
@@ -63,7 +250,35 @@
   }
   }
   
+  @media (min-width:1550px) {
+  
+    .service-card-containor{
+      width: 99vw;
+
+      padding-top: 50px;
+    }
+    .serviceCards-holder{
+      /* border: 1px solid black; */
+      width: 99vw;
+      flex-direction: row;
+  }
+  }
+  
   @media (min-width:1536px) {
+  
+    .service-card-containor{
+      width: 99vw;
+
+      padding-top: 50px;
+    }
+    .serviceCards-holder{
+      /* border: 1px solid black; */
+      width: 99vw;
+      flex-direction: row;
+  }
+  }
+  
+  @media (min-width:1600px) {
   
     .service-card-containor{
       width: 99vw;
