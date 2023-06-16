@@ -57,7 +57,8 @@ const FormValidation = (values)=>{
  useEffect(()=>{
    console.log(FormErrors,'formErrors-box')
   if(Object.values(FormErrors).length ===0 && isSubmit){
-    console.log(inputData,'fromUseEffect')
+    console.log(inputData,'fromUseEffeGmailct')
+    alert("Thank you ! please contact via  linkedin link given below .")
   }},[FormErrors])
 
   return (
