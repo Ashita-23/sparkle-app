@@ -1,4 +1,4 @@
-# Go Live ( sparkel.netlify.app )
+# Go Live ([ sparkel.netlify.app](https://sparkel.netlify.app/) )
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 #Sparkle -- an event organizer website .
