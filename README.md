@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Go Live ( sparkel.netlify.app )
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 #Sparkle -- an event organizer website .
